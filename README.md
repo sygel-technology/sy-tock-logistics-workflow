@@ -21,6 +21,8 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[queued_purchase_picking_notify](queued_purchase_picking_notify/) | 17.0.1.0.0 |  | Schedule email/logs/activities notificacions on purchase pickings
+[queued_sale_picking_notify](queued_sale_picking_notify/) | 17.0.1.0.0 |  | Schedule email/logs/activities notificacions on purchase pickings
 [stock_move_responsible](stock_move_responsible/) | 17.0.1.0.0 |  | Responsible field in stock move related to its picking
 
 [//]: # (end addons)
