@@ -1,0 +1,121 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* picking_shipped_by
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-07 12:40+0000\n"
+"PO-Revision-Date: 2024-11-07 13:42+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: ca_ES\n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: picking_shipped_by
+#: model_terms:ir.ui.view,arch_db:picking_shipped_by.configure_shipper_wizard_form_view
+msgid "Cancel"
+msgstr "Cancel·lar"
+
+#. module: picking_shipped_by
+#: model:ir.actions.act_window,name:picking_shipped_by.action_configure_shipper_wizard
+#: model_terms:ir.ui.view,arch_db:picking_shipped_by.configure_shipper_wizard_form_view
+msgid "Configure Shipper"
+msgstr "Configurar distribuïdor"
+
+#. module: picking_shipped_by
+#: model:ir.model,name:picking_shipped_by.model_configure_shipper_wizard
+msgid "Configure Shipper Wizard"
+msgstr "Assistent de configuración de distribució"
+
+#. module: picking_shipped_by
+#: model:ir.model,name:picking_shipped_by.model_res_partner
+msgid "Contact"
+msgstr "Contacte"
+
+#. module: picking_shipped_by
+#: model:ir.model.fields,field_description:picking_shipped_by.field_configure_shipper_wizard__create_uid
+msgid "Created by"
+msgstr "Creat per"
+
+#. module: picking_shipped_by
+#: model:ir.model.fields,field_description:picking_shipped_by.field_configure_shipper_wizard__create_date
+msgid "Created on"
+msgstr "Creat el"
+
+#. module: picking_shipped_by
+#: model:ir.model.fields,field_description:picking_shipped_by.field_configure_shipper_wizard__display_name
+msgid "Display Name"
+msgstr "Nom a mostrar"
+
+#. module: picking_shipped_by
+#: model:ir.model.fields,field_description:picking_shipped_by.field_configure_shipper_wizard__id
+msgid "ID"
+msgstr ""
+
+#. module: picking_shipped_by
+#: model:ir.model.fields,field_description:picking_shipped_by.field_stock_picking__is_shipped
+msgid "Is Shipped"
+msgstr "Està llirat"
+
+#. module: picking_shipped_by
+#: model:ir.model.fields,field_description:picking_shipped_by.field_res_partner__is_shipper
+#: model:ir.model.fields,field_description:picking_shipped_by.field_res_users__is_shipper
+msgid "Is Shipper"
+msgstr "És distribuïdor"
+
+#. module: picking_shipped_by
+#: model:ir.model.fields,field_description:picking_shipped_by.field_configure_shipper_wizard____last_update
+msgid "Last Modified on"
+msgstr "Modificat per última vegada el"
+
+#. module: picking_shipped_by
+#: model:ir.model.fields,field_description:picking_shipped_by.field_configure_shipper_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Actualitzat per última vegada per"
+
+#. module: picking_shipped_by
+#: model:ir.model.fields,field_description:picking_shipped_by.field_configure_shipper_wizard__write_date
+msgid "Last Updated on"
+msgstr "Actualitzat per última vegada el"
+
+#. module: picking_shipped_by
+#: model_terms:ir.ui.view,arch_db:picking_shipped_by.picking_shipped_by_view_picking_internal_search
+msgid "Not Shipped"
+msgstr "No lliurat"
+
+#. module: picking_shipped_by
+#: model_terms:ir.ui.view,arch_db:picking_shipped_by.picking_shipped_by_view_picking_internal_search
+msgid "Shipped"
+msgstr "Lliurat"
+
+#. module: picking_shipped_by
+#: model:ir.model.fields,field_description:picking_shipped_by.field_configure_shipper_wizard__partner_id
+#: model:ir.model.fields,field_description:picking_shipped_by.field_stock_picking__shipped_by_id
+msgid "Shipped By"
+msgstr "Lliurat per"
+
+#. module: picking_shipped_by
+#: model_terms:ir.ui.view,arch_db:picking_shipped_by.picking_shipped_by_view_picking_internal_search
+msgid "Shipper"
+msgstr "Distribuïdor"
+
+#. module: picking_shipped_by
+#: model:ir.model.fields,field_description:picking_shipped_by.field_configure_shipper_wizard__stock_picking_ids
+msgid "Stock Picking"
+msgstr "Albarà"
+
+#. module: picking_shipped_by
+#: model:ir.model,name:picking_shipped_by.model_stock_picking
+msgid "Transfer"
+msgstr "Transferència"
+
+#. module: picking_shipped_by
+#: model:ir.model.fields,field_description:picking_shipped_by.field_configure_shipper_wizard__weight
+msgid "Weight"
+msgstr "Pes"

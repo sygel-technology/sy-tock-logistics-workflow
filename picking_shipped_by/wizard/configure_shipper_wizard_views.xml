@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="configure_shipper_wizard_form_view" model="ir.ui.view">
+        <field name="name">configure.shipper.wizard.form.view</field>
+        <field name="model">configure.shipper.wizard</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <group>
+                        <field
+                            name="partner_id"
+                            options="{'no_create_edit': True, 'no_create': True}"
+                        />
+                    </group>
+                    <group>
+                        <field name="weight" />
+                    </group>
+                </group>
+                <group>
+                    <field name="stock_picking_ids" />
+                </group>
+                <footer>
+                    <button
+                        name="configure_shipper"
+                        string="Configure Shipper"
+                        class="oe_highlight"
+                        type="object"
+                    />
+                    <button
+                        string="Cancel"
+                        class="oe_right float-right"
+                        special="cancel"
+                    />
+                </footer>
+            </form>
+        </field>
+    </record>
+    <record id="action_configure_shipper_wizard" model="ir.actions.act_window">
+        <field name="name">Configure Shipper</field>
+        <field name="res_model">configure.shipper.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="binding_model_id" ref="stock.model_stock_picking" />
+        <field name="binding_view_types">list</field>
+    </record>
+</odoo>
