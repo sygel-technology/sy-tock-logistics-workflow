@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2024 Alberto Martínez <alberto.martinez@sygel.es>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record id="picking_warn_message_view_template_property_form" model="ir.ui.view">
+        <field name="name">picking.warn.message.view.template.property.form</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_form_view" />
+        <field name="arch" type="xml">
+            <page name="inventory" position="inside">
+                <group>
+                    <group string="Message for Out Pickings">
+                        <field
+                            name="out_picking_line_warn_message"
+                            nolabel="1"
+                            colspan="2"
+                            placeholder="This note will show up on out pickings."
+                        />
+                    </group>
+                    <group string="Message for In Pickings">
+                        <field
+                            name="in_picking_line_warn_message"
+                            nolabel="1"
+                            colspan="2"
+                            placeholder="This note will show up on in pickings."
+                        />
+                    </group>
+                </group>
+            </page>
+        </field>
+    </record>
+</odoo>
