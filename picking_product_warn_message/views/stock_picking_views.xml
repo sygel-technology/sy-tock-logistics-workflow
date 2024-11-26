@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2024 Alberto Martínez <alberto.martinez@sygel.es>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record id="picking_warn_message_view_picking_form" model="ir.ui.view">
+        <field name="name">picking.warn.message.view.picking.form</field>
+        <field name="model">stock.picking</field>
+        <field name="priority">15</field>
+        <field name="inherit_id" ref="stock.view_picking_form" />
+        <field name="arch" type="xml">
+            <header position="after">
+                <div
+                    class="alert alert-warning"
+                    role="alert"
+                    invisible="not in_picking_product_warn_msg or picking_type_code != 'incoming'"
+                    style="margin-bottom:0px; border-color: #F7E5D8; background-color: #F7E5D8; color:black;"
+                >
+                    <p>
+                        <i class="fa fa-info-circle" />
+                        <span>&amp;nbsp;Products Warning</span>
+                        <field name="in_picking_product_warn_msg" class="oe_inline" />
+                    </p>
+                </div>
+                <div
+                    class="alert alert-warning"
+                    role="alert"
+                    invisible="not out_picking_product_warn_msg or picking_type_code != 'outgoing'"
+                    style="margin-bottom:0px; border-color: #F7E5D8; background-color: #F7E5D8; color:black;"
+                >
+                    <p>
+                        <i class="fa fa-info-circle" />
+                        <span>&amp;nbsp;Products Warning</span>
+                        <field name="out_picking_product_warn_msg" class="oe_inline" />
+                    </p>
+                </div>
+            </header>
+        </field>
+    </record>
+</odoo>
