@@ -1,3 +1,0 @@
-odoo-addon-base_queued_notify @ git+https://github.com/sygel-technology/sy-server-tools.git@17.0#subdirectory=base_queued_notify
-odoo-addon-queued_purchase_notify @ git+https://github.com/sygel-technology/sy-purchase-workflow.git@17.0#subdirectory=queued_purchase_notify
-odoo-addon-queued_sale_notify @ git+https://github.com/sygel-technology/sy-sale-workflow.git@17.0#subdirectory=queued_sale_notify
