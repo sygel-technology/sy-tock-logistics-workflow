@@ -21,6 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[picking_carrier_tracking_ref_search](picking_carrier_tracking_ref_search/) | 16.0.1.0.0 |  | Search by carrier_tracking_ref in stock pickings
 [picking_edit_printed_status](picking_edit_printed_status/) | 16.0.1.0.0 |  | Edit printed status on pickings
 [product_search_category_attribute_stock](product_search_category_attribute_stock/) | 16.0.1.0.0 |  | Search products by category and attributes considering availability
 [stock_picking_terms](stock_picking_terms/) | 16.0.1.0.0 |  | Stock Picking Terms and Conditions
